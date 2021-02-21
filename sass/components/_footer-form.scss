@@ -1,0 +1,70 @@
+/* Footer Form */
+
+.footer-form {
+  width: 570px;
+  height: 86px;
+  margin-left: auto;
+}
+.footer-form-box {
+  display: flex;
+  align-items: center;
+}
+.footer-form-text {
+  width: 219px;
+  height: 16px;
+  margin-bottom: 20px;
+
+  font-family: var(--text-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--white-text-color);
+}
+
+.footer-form-input {
+  padding: 15px 16px;
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: #2f303a;
+  color: var(--white-text-color);
+}
+
+.footer-form-btn {
+  min-width: 200px;
+  height: 50px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--white-text-color);
+
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.footer-form-ikon {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+
+  fill: currentColor;
+}

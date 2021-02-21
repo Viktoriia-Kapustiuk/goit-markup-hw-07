@@ -1,0 +1,36 @@
+/* logo */
+.logotype {
+  display: block;
+  width: 145px;
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  animation-duration: 1000ms;
+}
+.header .logotype {
+  margin-right: 93px;
+}
+
+.logo-web {
+  color: var(--accent-color);
+  font-style: normal;
+}
+.logotype-light-theme {
+  color: #000000;
+}
+.logotype-dark-theme {
+  color: var(--white-text-color);
+}
+.logotype {
+  animation-duration: 1000ms;
+}
+.logotype.logotype-dark-theme {
+  display: inline-block;
+  margin-bottom: 20px;
+}

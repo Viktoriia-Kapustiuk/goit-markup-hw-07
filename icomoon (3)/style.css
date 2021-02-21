@@ -1,0 +1,54 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+.elem {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  background-image: url("SVG/diagram-1-1.svg");
+  background-size: contain;
+}
+.icon-grey-rectangle {
+  width: 1.9345703125em;
+}
+
+.icon-smartphone-1 {
+  width: 0.625em;
+}
+
+.icon-envelope-hover-1 {
+  width: 1.3330078125em;
+}
+
+.icon-logo-1-1 {
+  width: 0.900390625em;
+}
+
+.icon-logo-2-1 {
+  width: 0.76953125em;
+}
+
+.icon-logo-3-1 {
+  width: 0.953125em;
+}
+
+.icon-logo-4-1 {
+  width: 1.8603515625em;
+}
+
+.icon-logo-5-1 {
+  width: 1.2548828125em;
+}

@@ -1,0 +1,20 @@
+.address-list-item-link {
+  font-family: var(--text-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  color: var(--white-text-color);
+}
+.address-list-item-link-mail,
+.address-list-item-link-tel {
+  font-family: var(--text-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}

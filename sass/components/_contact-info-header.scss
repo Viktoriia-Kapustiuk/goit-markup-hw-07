@@ -1,0 +1,27 @@
+.info {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header .info {
+  display: block;
+  font-family: var(--text-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+
+  transition: color, 250ms, var(--cub);
+}
+.info:hover,
+.info:focus {
+  color: var(--accent-color);
+}
+
+.info:hover > svg,
+.info:focus > svg {
+  fill: var(--accent-color);
+}
