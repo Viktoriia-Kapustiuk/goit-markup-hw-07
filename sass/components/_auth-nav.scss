@@ -1,26 +1,20 @@
-/*auth-nav */
-
 .auth-nav {
   margin-left: auto;
+}
+.auth-nav-list {
+  display: flex;
+}
 
-  &-list {
-    display: flex;
-  }
+.auth-nav-item {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 
-  &-item {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
+  transition: fill, 250ms, var(--cub);
 
-    transition: fill, 250ms, var(--cub);
-    &:hover > svg,
-    &:focus > svg {
-      fill: var(--accent-color);
-    }
-  }
-
-  .auth-nav .auth-nav-item + .auth-nav-item {
-    margin-left: 30px;
+  .auth-nav-item:hover > svg,
+  .auth-nav-item:focus > svg {
+    fill: var(--accent-color);
   }
 }
 
@@ -36,6 +30,6 @@
   margin-right: 10px;
 }
 
-/* .auth-nav .info + .info {
-  margin-left: 50px; 
-} */
+.auth-nav .auth-nav-item + .auth-nav-item {
+  margin-left: 30px;
+}

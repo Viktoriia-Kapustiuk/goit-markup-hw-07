@@ -12,6 +12,17 @@
 
   animation-duration: 1000ms;
 }
+
+.logotype-light-theme {
+  color: #000000;
+}
+.logotype-dark-theme {
+  color: var(--white-text-color);
+}
+.logotype.logotype-dark-theme {
+  display: inline-block;
+  margin-bottom: 20px;
+}
 .header .logotype {
   margin-right: 93px;
   padding-top: 24px;
@@ -21,15 +32,4 @@
 .logo-web {
   color: var(--accent-color);
   font-style: normal;
-}
-.logotype-light-theme {
-  color: #000000;
-}
-.logotype-dark-theme {
-  color: var(--white-text-color);
-}
-
-.logotype.logotype-dark-theme {
-  display: inline-block;
-  margin-bottom: 20px;
 }
