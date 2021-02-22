@@ -84,13 +84,13 @@ body {
   text-decoration: none;
   letter-spacing: 0.03em;
   font-style: normal;
-  padding-top: 24px;
-  padding-bottom: 25px;
   animation-duration: 1000ms;
 }
 
 .header .logotype {
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logo-web {
@@ -104,10 +104,6 @@ body {
 
 .logotype-dark-theme {
   color: var(--white-text-color);
-}
-
-.logotype {
-  animation-duration: 1000ms;
 }
 
 .logotype.logotype-dark-theme {

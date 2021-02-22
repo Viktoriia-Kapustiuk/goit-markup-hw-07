@@ -16,8 +16,8 @@
   align-self: center;
   outline: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
 
-.modal-form-btn:hover {
-  background-color: #188ce8;
+  &:hover {
+    background-color: #188ce8;
+  }
 }
