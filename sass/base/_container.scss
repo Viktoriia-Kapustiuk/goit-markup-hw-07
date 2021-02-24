@@ -1,7 +1,30 @@
+%flex {
+  display: flex;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
   box-sizing: border-box;
+
+  .footer & {
+    @extend %flex;
+    align-items: baseline;
+  }
+
+  .hero & {
+    @extend %flex;
+    justify-content: center;
+  }
+
+  .buttons & {
+    @extend %flex;
+    display: block;
+  }
+
+  .our-clients & {
+    @extend %flex;
+  }
 }

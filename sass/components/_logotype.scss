@@ -17,12 +17,11 @@
   color: #000000;
 }
 .logotype-dark-theme {
-  color: var(--white-text-color);
-}
-.logotype.logotype-dark-theme {
   display: inline-block;
   margin-bottom: 20px;
+  color: var(--white-text-color);
 }
+
 .header .logotype {
   margin-right: 93px;
   padding-top: 24px;

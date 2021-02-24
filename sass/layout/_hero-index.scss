@@ -6,6 +6,11 @@
   padding-bottom: 200px;
 }
 
+.hero-side {
+  display: inline-block;
+  text-align: center;
+}
+
 .overlay {
   display: flex;
   height: 600px;
@@ -24,15 +29,6 @@
   background-color: #c4c4c4;
 }
 
-.hero .container {
-  display: flex;
-  justify-content: center;
-}
-
-.hero-side {
-  display: inline-block;
-  text-align: center;
-}
 .title {
   margin-bottom: 30px;
   width: 696px;

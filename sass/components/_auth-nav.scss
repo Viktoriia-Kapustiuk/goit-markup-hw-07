@@ -1,5 +1,8 @@
 .auth-nav {
   margin-left: auto;
+  & .auth-nav-item + .auth-nav-item {
+    margin-left: 30px;
+  }
 }
 .auth-nav-list {
   display: flex;
@@ -12,8 +15,8 @@
 
   transition: fill, 250ms, var(--cub);
 
-  .auth-nav-item:hover > svg,
-  .auth-nav-item:focus > svg {
+  &:hover > svg,
+  &:focus > svg {
     fill: var(--accent-color);
   }
 }
@@ -28,8 +31,4 @@
   width: 10px;
   height: 16px;
   margin-right: 10px;
-}
-
-.auth-nav .auth-nav-item + .auth-nav-item {
-  margin-left: 30px;
 }
