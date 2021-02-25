@@ -9,8 +9,7 @@
 }
 
 .auth-nav-item {
-  display: flex;
-  align-items: center;
+  @extend %flex;
   margin-left: auto;
 
   transition: fill, 250ms, var(--cub);

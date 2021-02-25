@@ -5,6 +5,7 @@
 }
 .buttons-list {
   display: block;
+
   margin-bottom: 50px;
 }
 .buttons-list-item {
@@ -16,9 +17,10 @@
 }
 
 .buttons-list-item-btn {
-  padding: 6px 22px;
   display: inline-block;
   text-align: center;
+
+  padding: 6px 22px;
   font-family: var(--text-font);
   font-weight: 500;
   font-size: 16px;

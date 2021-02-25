@@ -108,8 +108,7 @@
 }
 
 .modal-form-input-policy {
-  display: flex;
-  align-items: center;
+  @extend %flex;
   flex-wrap: wrap;
   margin-bottom: 30px;
   font-family: var(--text-font);
@@ -149,8 +148,7 @@
 }
 
 .modal-form-check-policy {
-  display: flex;
-  align-items: center;
+  @extend %flex;
   flex-wrap: wrap;
 }
 
@@ -159,11 +157,12 @@
 }
 
 .fill-form {
+  text-align: center;
+
   font-family: var(--text-font);
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
-  text-align: center;
   letter-spacing: 0.03em;
   min-width: 448px;
   height: 23px;
@@ -187,7 +186,9 @@
 
 .close-btn {
   position: absolute;
-  display: flex;
+  @extend %flex;
+  @extend %text-align;
+
   top: 8px;
   right: 8px;
   width: 30px;
@@ -197,9 +198,6 @@
   box-sizing: border-box;
   border-radius: 50%;
   padding: 0;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
 
   &:hover > .icon-close {
     fill: var(--accent-color);

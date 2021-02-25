@@ -1,7 +1,3 @@
-%flex {
-  display: flex;
-}
-
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -10,21 +6,21 @@
   box-sizing: border-box;
 
   .footer & {
-    @extend %flex;
+    display: flex;
     align-items: baseline;
   }
 
   .hero & {
-    @extend %flex;
+    display: flex;
     justify-content: center;
   }
 
   .buttons & {
-    @extend %flex;
+    display: flex;
     display: block;
   }
 
   .our-clients & {
-    @extend %flex;
+    display: flex;
   }
 }

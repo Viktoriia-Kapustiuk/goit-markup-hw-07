@@ -6,15 +6,14 @@
   .header & {
     display: block;
     font-family: var(--text-font);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.143;
+    @include font();
     text-decoration: none;
     letter-spacing: 0.02em;
     color: var(--main-color);
 
     transition: color, 250ms, var(--cub);
   }
+
   &:hover,
   &:focus {
     color: var(--accent-color);
